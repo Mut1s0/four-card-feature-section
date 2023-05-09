@@ -21,3 +21,13 @@
     --fw-400: 400;
     --fw-600: 600;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--ff);
+}
