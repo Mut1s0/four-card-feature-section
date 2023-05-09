@@ -30,4 +30,30 @@
 
 body {
     font-family: var(--ff);
+    background: var(--clr-very-light-gray);
+}
+
+header {
+    text-align: center;
+}
+
+.header {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.header > h1 {
+    color: var(--clr-grayish-blue);
+    font-weight: var(--fw-200);
+    font-size: 35px;
+}
+
+.header > h1 span {
+    color: var(--clr-very-dark-blue);
+    font-weight: var(--fw-600);
+}
+
+.header > p {
+    color: var(--clr-grayish-blue);
+    font-weight: var(--fw-200);
 }
