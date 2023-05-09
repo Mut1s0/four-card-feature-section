@@ -30,11 +30,10 @@
 
 body {
     font-family: var(--ff);
-    background: var(--clr-very-light-gray);
+    background: #F5F5F5;
 }
 
 .container {
-    border: 2px solid purple;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -67,7 +66,6 @@ header {
 }
 
 .main {
-    border: 2px solid red;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 120px 120px 120px 120px;
@@ -80,25 +78,33 @@ header {
 .supervisor {
     grid-column: 1 / 2;
     grid-row: 2 / 4;
-    border: 2px solid green;
+    background: white;
+    border-radius: 0.5rem;
+    border-top: 5px solid var(--clr-cyan);
 }
 
 .teambuilding {
-    border: 2px solid yellow;
+    background: #fff;
+    border-radius: 0.5rem;
     grid-column: 2 / 3;
     grid-row: 1 / 3;
+    border-top: 5px solid var(--clr-red);
 }
 
 .karma {
-    border: 2px solid purple;
+    background: #fff;
+    border-radius: 0.5rem;
     grid-column: 2 / 3;
     grid-row: 3 / 5;
+    border-top: 5px solid var(--clr-orange);
 }
 
 .calculator {
-    border: 2px solid aqua;
+    background: #fff;
+    border-radius: 0.5rem;
     grid-column: 3 / 4;
     grid-row: 2 / 4;
+    border-top: 5px solid var(--clr-blue);
 }
 
 .supervisor__content,
@@ -106,11 +112,19 @@ header {
 .karma__content,
 .calculator__content {
     height: 40%;
-    width: 80%;
-    margin: 0 auto;
+    width: 65%;
+    margin: 0 0 0 2.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.supervisor__content h1,
+.teambuilding__content h1,
+.karma__content h1,
+.calculator__content h1 {
+    font-size: 1.5rem;
+    margin-top: 3.5rem;
 }
 
 .supervisor__content > p,
@@ -118,7 +132,8 @@ header {
 .karma__content > p,
 .calculator__content > p {
     color: var(--clr-grayish-blue);
-    font-size: var(--ff);
+    font-size: 14px;
+    margin-top: 1rem;
 }
 
 .supervisor__img,
