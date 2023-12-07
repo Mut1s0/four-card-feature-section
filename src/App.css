@@ -1,0 +1,45 @@
+.mainHeader > h1 {
+    color: var(--very-dark-blue);
+    font-weight: var(--fw-extraLight);
+}
+
+.mainHeader > h1 > span {
+    color: var(--very-dark-blue);
+    font-weight: var(--fw-semiBold);
+}
+
+.mainHeader > p {
+    color: var(--grayish-blue);
+    font-weight: var(--fw-regular);
+}
+
+.contentContainer > div:nth-child(1) {
+    border-top: 4px solid var(--cyan);
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.contentContainer > div:nth-child(2) {
+    border-top: 4px solid var(--red);
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.contentContainer > div:nth-child(3) {
+    border-top: 4px solid var(--orange);
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.contentContainer > div:nth-child(4) {
+    border-top: 4px solid var(--blue);
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.contentHeader > h2 {
+    color: var(--very-dark-blue);
+    font-weight: var(--fw-semiBold);
+}
+
+.contentHeader > p {
+    color: var(--grayish-blue);
+    font-weight: var(--fw-regular);
+}
