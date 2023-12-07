@@ -1,10 +1,11 @@
 import './App.css';
+import FourCards from './FourCards';
 
 function App() {
 
   return(
 
-    <h1>App</h1>
+    <FourCards />
   )
 
 }
